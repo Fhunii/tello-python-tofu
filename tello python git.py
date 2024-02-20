@@ -17,6 +17,6 @@ socket.sendto('takeoff'.encode('utf-8'),tello_address)
 print ('takeoff')
  
 time.sleep(6)
-#これでこみっとできる？あ
+
 socket.sendto('land'.encode('utf-8'),tello_address)
 print ('land')
